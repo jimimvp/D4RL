@@ -30,7 +30,8 @@ def get_version():
     raise RuntimeError("bad version data in __init__.py")
 
 
-version = get_version()
+# version = get_version()
+version = '1.1.0'
 header_count, long_description = get_description()
 
 setup(
